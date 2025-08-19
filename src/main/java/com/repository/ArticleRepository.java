@@ -1,6 +1,6 @@
-package com.example.newboard.repository;
+package com.repository;
 
-import com.example.newboard.domain.Article;
+import com.domain.Article;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,6 +1,6 @@
-package com.example.newboard.service.security;
+package com.service.security;
 
-import com.example.newboard.repository.UserRepository;
+import com.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.Service;

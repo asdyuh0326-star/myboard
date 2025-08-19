@@ -1,8 +1,8 @@
-package com.example.newboard.service;
+package com.service;
 
-import com.example.newboard.domain.User;
-import com.example.newboard.repository.UserRepository;
-import com.example.newboard.web.dto.JoinRequest;
+import com.domain.User;
+import com.repository.UserRepository;
+import com.web.dto.JoinRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

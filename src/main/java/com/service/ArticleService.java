@@ -1,10 +1,10 @@
-package com.example.newboard.service;
+package com.service;
 
-import com.example.newboard.domain.Article;
-import com.example.newboard.repository.ArticleRepository;
-import com.example.newboard.repository.UserRepository;
-import com.example.newboard.web.dto.ArticleCreateRequest;
-import com.example.newboard.web.dto.ArticleUpdateRequest;
+import com.domain.Article;
+import com.repository.ArticleRepository;
+import com.repository.UserRepository;
+import com.web.dto.ArticleCreateRequest;
+import com.web.dto.ArticleUpdateRequest;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.AccessDeniedException;

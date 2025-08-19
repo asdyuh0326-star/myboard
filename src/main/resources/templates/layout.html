@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:replace="~{::title}">사이트 제목</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header>
+    <a href="/" class="brand">🌀 임시로고</a>
+</header>
+
+<main th:replace="~{::main}"></main>
+
+<footer>
+    <p style="text-align:center; padding:20px;">© 2025 MySite</p>
+</footer>
+</body>
+</html>

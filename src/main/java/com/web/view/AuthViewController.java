@@ -1,7 +1,7 @@
-package com.example.newboard.web.view;
+package com.web.view;
 
-import com.example.newboard.service.UserService;
-import com.example.newboard.web.dto.JoinRequest;
+import com.service.UserService;
+import com.web.dto.JoinRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

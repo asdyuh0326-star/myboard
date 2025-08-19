@@ -1,7 +1,7 @@
-package com.example.newboard.web.view;
+package com.web.view;
 
-import com.example.newboard.domain.User;
-import com.example.newboard.repository.UserRepository;
+import com.domain.User;
+import com.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.ControllerAdvice;

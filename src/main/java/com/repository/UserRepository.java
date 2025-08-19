@@ -1,6 +1,6 @@
-package com.example.newboard.repository;
+package com.repository;
 
-import com.example.newboard.domain.User;
+import com.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

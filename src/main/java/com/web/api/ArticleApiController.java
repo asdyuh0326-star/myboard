@@ -1,13 +1,12 @@
-package com.example.newboard.web.api;
+package com.web.api;
 
 
-import com.example.newboard.domain.Article;
-import com.example.newboard.service.ArticleService;
-import com.example.newboard.web.dto.ArticleCreateRequest;
-import com.example.newboard.web.dto.ArticleUpdateRequest;
+import com.domain.Article;
+import com.service.ArticleService;
+import com.web.dto.ArticleCreateRequest;
+import com.web.dto.ArticleUpdateRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;

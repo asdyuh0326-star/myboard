@@ -1,15 +1,12 @@
-package com.example.newboard.web.view;
+package com.web.view;
 
-import com.example.newboard.service.ArticleService;
-import com.example.newboard.web.dto.ArticleCreateRequest;
-import com.example.newboard.web.dto.ArticleUpdateRequest;
+import com.service.ArticleService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 @RequiredArgsConstructor

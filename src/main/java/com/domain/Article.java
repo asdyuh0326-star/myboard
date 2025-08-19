@@ -1,4 +1,4 @@
-package com.example.newboard.domain;
+package com.domain;
 
 import jakarta.persistence.*;
 import lombok.*;

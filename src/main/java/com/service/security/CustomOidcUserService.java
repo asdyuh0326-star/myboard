@@ -1,7 +1,7 @@
-package com.example.newboard.service.security;
+package com.service.security;
 
-import com.example.newboard.domain.User;
-import com.example.newboard.repository.UserRepository;
+import com.domain.User;
+import com.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.oauth2.client.oidc.userinfo.OidcUserRequest;
 import org.springframework.security.oauth2.client.oidc.userinfo.OidcUserService;
